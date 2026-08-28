@@ -41,12 +41,29 @@ app.use(
 // ==========================================
 // CORS Configuration
 // ==========================================
-app.use(
-    cors({
-        origin: process.env.CLIENT_URL || "https://ecommerce-demo-eaq5.vercel.app",
-        credentials: true,
-    })
-);
+// app.use(
+//     cors({
+//         origin: process.env.CLIENT_URL || "https://ecommerce-demo-eaq5.vercel.app",
+//         credentials: true,
+//     })
+// );
+
+
+const allowedOrigins = [
+    "http://localhost:5173",
+    "https://ecommerce-demo-eaq5.vercel.app"
+];
+
+app.use(cors({
+    origin: function (origin, callback) {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error("Not allowed by CORS"));
+        }
+    },
+    credentials: true
+}));
 
 // ==========================================
 // Body & Cookie Parsers
