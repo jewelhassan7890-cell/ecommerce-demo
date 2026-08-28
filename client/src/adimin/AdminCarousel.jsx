@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Trash2, UploadCloud, Image as ImageIcon, Loader2 } from 'lucide-react';
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app";
 
 const AdminCarousel = () => {
     const [carousels, setCarousels] = useState([]);

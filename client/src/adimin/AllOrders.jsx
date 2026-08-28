@@ -23,7 +23,7 @@ import {
 } from "react-icons/fi";
 import InvoicePrint from "./InvoicePrint";
 
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app";
 const BACKEND_DOMAIN = BASE_URL.replace("/", "");
 
 const AllOrders = () => {

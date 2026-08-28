@@ -16,7 +16,7 @@
 
 // import logo from "../assets/logo.jpg.jpeg";
 
-// const SERVER_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api/v1";
+// const SERVER_URL = import.meta.env.VITE_API_URL || "https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app/api/v1";
 
 // const Navbar = () => {
 //     const [mobileOpen, setMobileOpen] = useState(false);
@@ -158,7 +158,7 @@
 //             } catch (e) {
 //                 console.log(e, "hello japan")
 
-//                 baseUrl = 'http://localhost:5000';
+//                 baseUrl = 'https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app';
 //             }
 
 //             const cleanPath = normalizedPath.startsWith('/') ? normalizedPath : `/${normalizedPath}`;
@@ -500,7 +500,7 @@ import { useCart } from "../context/CartContext";
 
 import logo from "../assets/logo.jpg.jpeg";
 
-const SERVER_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const SERVER_URL = import.meta.env.VITE_API_URL || "https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app";
 
 const Navbar = () => {
     const [mobileOpen, setMobileOpen] = useState(false);

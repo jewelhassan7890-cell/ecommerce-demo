@@ -4,7 +4,7 @@ import heroImageFallback from "../assets/hero-banner.png"; // ব্যাকএ
 import { Link } from "react-router-dom";
 
 // Vite Environment Variable থেকে Base URL পড়া হচ্ছে
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app';
 
 const Hero = () => {
     // ব্যাকএন্ড থেকে ডাটা লোড করার স্টেট (ডিফল্ট ডাটা দেওয়া আছে যাতে API লোড হওয়ার আগেও ডিজাইন ঠিক থাকে)

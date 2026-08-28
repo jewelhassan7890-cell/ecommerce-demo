@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app';
 
 const AdminHeroConfig = () => {
     const [loading, setLoading] = useState(false);

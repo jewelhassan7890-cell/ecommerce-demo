@@ -29,7 +29,7 @@
 
 
 // // Base API URL
-// const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+// const BASE_URL = import.meta.env.VITE_API_URL || "https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app";
 
 // // 1. Facebook Video/Reel Embed Helper
 // const getFacebookVideoEmbedUrl = (url) => {
@@ -576,7 +576,7 @@ import { useCart } from "../context/CartContext";
 
 
 // Base API URL
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app";
 
 // 1. Facebook Video/Reel Embed Helper
 const getFacebookVideoEmbedUrl = (url) => {

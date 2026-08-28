@@ -6,7 +6,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-const VITE_API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const VITE_API_URL = import.meta.env.VITE_API_URL || "https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app";
 const ReviewCarousel = () => {
     const [carousels, setCarousels] = useState([]);
     const [loading, setLoading] = useState(true);

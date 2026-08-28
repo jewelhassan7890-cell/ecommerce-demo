@@ -6,7 +6,7 @@ import { signInWithPopup } from 'firebase/auth';
 import { auth, googleProvider } from '../firebase/firebase'; // আপনার ফায়ারবেস কনফিগ ফাইল
 import { useAuth } from '../hooks/useAuth';
 
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app";
 
 const Login = () => {
     const navigate = useNavigate();

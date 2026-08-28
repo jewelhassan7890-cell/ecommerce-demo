@@ -7,7 +7,7 @@ import {
 import { useAuth } from '../hooks/useAuth';
 
 // ব্যাকএন্ডের মূল URL (লোকাল ফাইল আপলোডের ক্ষেত্রে প্রয়োজন)
-const SERVER_URL = import.meta.env.VITE_SERVER_URL || "http://localhost:5000";
+const SERVER_URL = import.meta.env.VITE_SERVER_URL || "https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app";
 
 const Profile = () => {
     const navigate = useNavigate();
@@ -52,7 +52,7 @@ const Profile = () => {
             }
 
             // ৫. Multer/Local Storage এর সার্ভার ইউআরএল ক্লিনআপ
-            const cleanServerUrl = (SERVER_URL || 'http://localhost:5000').replace(/\/$/, '');
+            const cleanServerUrl = (SERVER_URL || 'https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app').replace(/\/$/, '');
             const cleanPath = normalizedPath.startsWith('/') ? normalizedPath : `/${normalizedPath}`;
             return `${cleanServerUrl}${cleanPath}`;
         }

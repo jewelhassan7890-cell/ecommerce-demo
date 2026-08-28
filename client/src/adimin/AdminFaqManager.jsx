@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Plus, Edit, Trash2, CheckCircle2, XCircle } from "lucide-react";
 
-const SERVER_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const SERVER_URL = import.meta.env.VITE_API_URL || "https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app";
 
 const AdminFaqManager = () => {
     const [faqs, setFaqs] = useState([]);

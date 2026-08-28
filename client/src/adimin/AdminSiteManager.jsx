@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { Upload, Save, Image as ImageIcon, CheckCircle } from "lucide-react";
 
-const SERVER_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const SERVER_URL = import.meta.env.VITE_API_URL || "https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app";
 
 const AdminSiteManager = () => {
     const [siteName, setSiteName] = useState("Style & Closet");

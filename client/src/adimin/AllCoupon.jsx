@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { FiTrash2, FiTag, FiRefreshCw, FiClock, FiCheck, FiX } from "react-icons/fi";
 
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://ecommerce-demo-ro6m48tke-style-and-closet.vercel.app";
 
 const AllCoupon = () => {
     const [coupons, setCoupons] = useState([]);
