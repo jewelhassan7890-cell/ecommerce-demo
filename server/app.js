@@ -43,7 +43,7 @@ app.use(
 // ==========================================
 app.use(
     cors({
-        origin: process.env.CLIENT_URL || "http://localhost:5173",
+        origin: process.env.CLIENT_URL || "https://ecommerce-demo-eaq5.vercel.app",
         credentials: true,
     })
 );
