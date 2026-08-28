@@ -1,4 +1,4 @@
-const Faq = require("../models/Faq");
+const Faq = require("../models/FAQ");
 
 // @desc    Get all active FAQs (Public for Frontend UI)
 // @route   GET /api/v1/faqs
