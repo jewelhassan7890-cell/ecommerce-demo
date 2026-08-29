@@ -43,7 +43,7 @@ app.use(
 // ==========================================
 app.use(
     cors({
-        origin: process.env.CLIENT_URL || "https://ecommerce-demo-mzy5.vercel.app",
+        origin: process.env.CLIENT_URL || "https://ecommerce-demo-erow.vercel.app",
         credentials: true,
     })
 );
